@@ -1,8 +1,6 @@
 ///convertirHorasEnSegundos(horas)
 
-
-
-let convertirHorasEnSegundos = () => {
+let convertirHorasEnSegundos = (horas, equivalenteEnsegundos) => {
     let horaUsuario = prompt("Diga un número a ser convertido en HORAS")
     console.log(horaUsuario)
     let equivalente = 3600
